@@ -1124,7 +1124,6 @@ async function checkSlip(ref_id, amount, requiredReceiverPhone, requiredReceiver
 }
 
 // Launch bot และจัดการการปิดโปรแกรมอย่างเป็นระบบ
-bot.launch()
     .then(() => console.log('🤖 Bot is running...'))
     .catch(err => console.error('❌ Failed to start bot:', err));
 
